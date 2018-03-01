@@ -1,0 +1,262 @@
+/* latin */
+@font-face {
+  font-family: 'Lobster';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Lobster Regular'), local('Lobster-Regular'), url(https://fonts.gstatic.com/s/lobster/v20/neILzCirqoswsqX9zoKmMw.woff2) format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+
+@font-face {
+  font-family: 'Work Sans';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Work Sans'), local('WorkSans-Regular'), url(https://fonts.gstatic.com/s/worksans/v3/QGYsz_wNahGAdqQ43Rh_fKDp.woff2) format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+
+@font-face {
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Poppins Regular'), local('Poppins-Regular'), url(https://fonts.gstatic.com/s/poppins/v5/pxiEyp8kv8JHgFVrJJfecg.woff2) format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+
+@font-face {
+  font-family: 'Open Sans Condensed';
+  font-style: normal;
+  font-weight: 300;
+  src: local('Open Sans Condensed Light'), local('OpenSansCondensed-Light'), url(https://fonts.gstatic.com/s/opensanscondensed/v12/z7NFdQDnbTkabZAIOl9il_O6KJj73e7Ff1GhDuXMRw.woff2) format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+
+@font-face {
+  font-family: 'Slabo 27px';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Slabo 27px'), local('Slabo27px-Regular'), url(https://fonts.gstatic.com/s/slabo27px/v4/mFT0WbgBwKPR_Z4hGN2qgx8D1Q.woff2) format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+
+@font-face {
+  font-family: 'Playfair Display';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Playfair Display Regular'), local('PlayfairDisplay-Regular'), url(https://fonts.gstatic.com/s/playfairdisplay/v13/nuFiD-vYSZviVYUb_rj3ij__anPXDTzYgA.woff2) format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+
+@font-face {
+  font-family: 'Francois One';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Francois One Regular'), local('FrancoisOne-Regular'), url(https://fonts.gstatic.com/s/francoisone/v11/_Xmr-H4zszafZw3A-KPSZut9wQiR.woff2) format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+
+<meta name="color:chrome scrollbar" content="#606060" />
+
+body {
+	margin: 0;
+	padding: 0;
+}
+
+.header {
+	width: 100%;
+	height: 2.5em;
+	overflow: hidden;
+	position: fixed;
+	z-index: 2;
+	background-color: white;
+	color: white;
+	right: 0;
+	left: 0;
+	top: 0;
+}
+
+.para {
+	text-align: justify;
+	padding-left: 300px;
+	padding-right: 300px;
+	padding-top: 20px;
+	text-overflow: ellipsis;
+	display: block;
+	height: 100%;
+}
+
+.header_text {
+	font-family: "Lobster";
+	font-size: 30px;
+	margin-top: -31px;
+	margin-left: 60px; 
+}
+
+.links {
+	font-family: "Open Sans Condensed", sans-serif;
+  	font-size: 25px;
+  	margin-top: -65px;
+  	margin-right: 30px;
+  	text-align: center;
+}
+
+a.home, 
+a.contact,
+a.about,
+a.blog,
+a.portfolio,
+a.github {
+	text-decoration: none;
+	color: #1A2930;
+	margin: 35px;
+}
+
+.yt,
+.fb,
+.google,
+.twitter,
+.insta,
+.linkedin {
+	margin: 10px;
+}
+
+#banner_text {
+	width: 100%;
+	z-index: -1;
+	background-color: transparent;
+	text-align: center;
+	top: 0px;
+	position: absolute;
+	left: 0;
+	right: 0;
+	font-family: "Open Sans Condensed";
+	font-size: 70px;
+	color: white;
+}
+
+#one {
+	width: 100%;
+	z-index: -1;
+	background-color: #DFDCE3;
+	height: 530px;
+	top: 766px;
+	position: absolute;
+	left: 0;
+	right: 0;
+	color: #22252C;
+	padding-top: 30px;
+	opacity: 0.8;
+	font-family: "Slabo 27px";
+	font-size: 20px;
+	font-weight: bold;
+	font-family: "Work Sans";;
+	text-align: center;
+	overflow: hidden;
+}
+
+#two {
+	width: 100%;
+	z-index: 1;
+	overflow: hidden;
+	background-color: white;
+	min-height: 1000px;
+	top: 1326px;
+	position: absolute;
+	left: 0;
+	right: 0;
+	color: #22252C;
+	padding-top: 30px;
+	opacity: 0.8;
+	font-size: 20px;
+	font-weight: bold;
+	font-family: "Work Sans";;
+	text-align: center;
+
+}
+
+#details {
+	font-size: 20px;
+}
+
+#copyright {
+	font-size: 14px;
+}
+
+#three {
+	width: 100%;
+	z-index: 1;
+	top: 4090px;
+	min-height: 300px;
+	position: absolute;
+	overflow: hidden;
+	background-color: #262228;
+	left: 0;
+	right: 0;
+	font-size: 25px;
+	color: white;
+	font-family: "Open Sans Condensed";;
+	text-align: center;
+}
+
+#banner {
+  	position: absolute;
+  	top: 40px;
+  	left: 0px;
+  	right: 0px;
+  	width: 100%;
+  	height: 726px;
+  	z-index: -1;
+  	opacity: 0.9;
+}
+
+#banner:hover {
+    opacity: 0.9;
+    filter: alpha(opacity=100); /* For IE8 and earlier */
+}
+
+.one, 
+.two,
+.three,
+.four,
+.five,
+.six,
+.seven,
+.eight,
+.nine,
+.ten,
+.eleven,
+.twelve,
+.thirteen,
+.fourteen,
+.fifteen,
+.sixteen,
+.seventeen,
+.eighteen {
+	width: 25%;
+	padding: 50px;
+	align-items: center;
+	padding: 25px;
+	z-index: -1;
+	
+}
+
+::-webkit-scrollbar-thumb {
+    min-height: 60px;
+    border-left: 4px solid {color:background};
+    border-right: 4px solid {color:background};
+    border-top: 2px solid {color:background};
+    border-bottom: 2px solid {color:background};
+    background: {color:chrome scrollbar};
+    }
+ 
+.grayscale { filter: grayscale(100%); }
+
+::-webkit-scrollbar {
+    width: 11px;
+    height: 10px;
+    border-left: 5px solid {color:background};
+    border-right: 5px solid {color:background};
+    border-top: 2px solid {color:background};
+    border-bottom: 2px solid {color:background};
+    background: {color:chrome scrollbar};
+    }
